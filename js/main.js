@@ -141,3 +141,21 @@ $("#button").click(function(e){
 
 
 })(jQuery);
+
+
+/*------------------
+        Counter
+    --------------------*/
+
+    var n = sessionStorage.getItem('on_load_counter');
+
+    if (n === null) {
+        n = 0;
+    }
+
+    n++;
+
+    localStorage.setItem("on_load_counter", n);
+
+    document.getElementById('CounterVisitor').innerHTML = n;
+
