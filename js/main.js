@@ -147,7 +147,7 @@ $("#button").click(function(e){
         Counter
     --------------------*/
 
-    var n = sessionStorage.getItem('on_load_counter');
+    var n = localStorage.getItem('on_load_counter');
 
     if (n === null) {
         n = 0;
@@ -155,7 +155,7 @@ $("#button").click(function(e){
 
     n++;
 
-    sessionStorage.setItem("on_load_counter", n);
+    localStorage.setItem("on_load_counter", n);
 
     document.getElementById('CounterVisitor').innerHTML = n;
 
