@@ -1990,3 +1990,23 @@ ol {
 	list-style: none;
 	padding: 0;
   }
+
+ #CounterVisitor {
+	display: inline-block;
+	padding: 4px 4px 4px;
+	font-family: Verdana;
+	color: whitesmoke;
+	border-radius: 3px;
+	background: #b09dc4;
+	margin-left: 50px;
+  }
+
+  .center {
+	text-align: left;
+	width: 50%;
+  }
+  .message {
+	color: whitesmoke;
+	font-family: Verdana;
+	font-size: 20px;
+  }
